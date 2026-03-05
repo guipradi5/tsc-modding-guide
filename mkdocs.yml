@@ -1,0 +1,40 @@
+site_name: The Silver Case - Modding Guide
+site_description: Complete documentation for modding The Silver Case
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light-blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - The Game: game.md
+  - Software: software.md
+  - Modding:
+      - Introduction: modding/introduction.md
+      - Dialogue and Chapter text: modding/dialogue.md
+      - Images: modding/images.md
+      - Videos: modding/videos.md
+      - Contact - Objects: modding/contact_objects.md
+      - Contact - Characters & Character Names: modding/contact_characters.md
+      - Interact - Objects: modding/interact_objects.md
+      - Fonts: modding/fonts.md
+      - Menu Texts: modding/menu_texts.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.emoji
+  - toc
